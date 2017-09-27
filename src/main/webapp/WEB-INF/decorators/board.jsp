@@ -22,14 +22,13 @@
 <link rel="stylesheet" href="../css/animate.css">
 </c:if>
 </head>
-<body>
-<header>Header</header>
+<body class="container">
+<header class="page-header">
+Header
+</header>
 
 <section class="panel panel-default">
-	<div class="panel-heading">WebBoard</div>
-	<div class="panel-body">
-		<sitemesh:write property="body"/>
-	</div>
+	<sitemesh:write property="body"/>
 </section>
 
 <footer>Footer</footer>

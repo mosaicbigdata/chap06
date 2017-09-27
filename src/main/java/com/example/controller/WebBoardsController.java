@@ -132,7 +132,7 @@ public class WebBoardsController {
 		
 		log.info("TOTAL PAGE NUMBER: " + result.getTotalPages());
 		
-		model.addAttribute("result", new PageMaker(result));
+		model.addAttribute("pageMaker", new PageMaker<WebBoard>(result));
 		
 		return "thymeleaf/boards/list";
 				

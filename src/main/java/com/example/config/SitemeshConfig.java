@@ -33,6 +33,7 @@ public class SitemeshConfig {
 				builder.addDecoratorPaths("/city/*", "/WEB-INF/decorators/city.jsp");
 				builder.addDecoratorPaths("/country/*", "/WEB-INF/decorators/country.jsp");
 				builder.addDecoratorPaths("/ontime/*", "/WEB-INF/decorators/ontime.jsp");
+				builder.addDecoratorPaths("/bootstrap/*", "/WEB-INF/decorators/bootstrap.jsp");
 			}
 		});
 		
@@ -41,7 +42,8 @@ public class SitemeshConfig {
 												 "/emp/*",
 												 "/city/*",
 												 "/country/*",
-												 "/ontime/*")
+												 "/ontime/*",
+												 "/bootstrap/*")
 								);		
 		
 		return filter;
